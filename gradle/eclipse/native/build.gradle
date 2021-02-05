@@ -30,7 +30,7 @@ android {
 
 dependencies {
     //添加依赖引用
-    compile fileTree(dir: 'libs', include: '*.jar')
+    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
 //////以下内容修改android studio NDK工程编译方式//////////  
